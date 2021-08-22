@@ -12,6 +12,21 @@ sections.forEach((section) => {
 });
 
 //Section Active State
+window.addEventListener("scroll", () => {
+  sections.forEach((section) => {
+    // check if the element is in the viewport using .getBoundingClientRect();
+    if (
+      section.getBoundingClientRect().top >= 0 &&
+      section.getBoundingClientRect().top <= 400
+    ) {
+      // if it's in the viewport, add the active class
+      section.classList.add("your-active-class");
+    } else {
+      // if it's not, remove the active class
+      section.classList.remove("your-active-class");
+    }
+  });
+});
 
 // Scroll to Anchor
 ul.addEventListener("click", (e) => {

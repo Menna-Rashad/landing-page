@@ -2,12 +2,15 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+- [Description](#Project%20Description)
+- [Usage](#Usage)
 
-## Instructions
+## Project Description
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This project is from Udacity's nanodegree program. From FWD, a free scholarship program offered by ITIDA to upskill Egyptian youth in Web, Data and Digital marketing tech skills for jobs of the future.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Usage
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+The navigation bar is built dynamically using js as an unordered list.
+Sections show active statur when in the viewport.
+The scroll to sections using the navigation is made smoothly.
