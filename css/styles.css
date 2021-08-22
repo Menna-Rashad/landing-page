@@ -239,3 +239,18 @@ section.your-active-class .landing__container::after {
     transform: rotate(360deg) translate(-1em) rotate(-360deg);
   }
 }
+
+/* scroll to top button */
+
+#scrollTop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border: none;
+  background-color: #f0ffff;
+  font-size: 2em;
+  font-weight: bold;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+}

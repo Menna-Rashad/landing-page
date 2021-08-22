@@ -38,3 +38,9 @@ ul.addEventListener("click", (e) => {
     });
   }
 });
+
+// Scroll to top button
+const scrollTop = document.querySelector("#scrollTop");
+scrollTop.addEventListener("click", () => {
+  window.scroll({ top: 0, behavior: "smooth" });
+});
